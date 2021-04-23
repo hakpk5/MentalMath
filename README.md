@@ -1,3 +1,7 @@
+## Mental Math
+ - This App is completely made with React, and can be used to practice summation problems on a day to day basis.
+ - Don't forget to add the node modules, I love DRY, so I dropped the idea of adding node_modules. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
