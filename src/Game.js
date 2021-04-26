@@ -46,6 +46,12 @@ class Game extends Component {
         this.state.proposedAnswer
     ) {
       this.props.handleAnswer(true);
+    } else if (
+      event.target.name === "False" &&
+      this.state.value1 + this.state.value2 + this.state.value3 ===
+        this.state.proposedAnswer
+    ) {
+      this.props.handleAnswer(false);
     }
     this.updateState(newValues);
   };
